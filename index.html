@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind Jit</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="bg-gray-50 m-0 p-0">
+        <section class="w-full h-screen m-0 md:grid grid-cols-2">
+            <!-- THE FIRST SECTION THAT CONTAINS THE IPHONE AND THE PURPLE BACKGROUND -->
+            <div
+                class="py-8 md:pr-16 lg:pr-32 flex justify-center md:justify-end items-center relative"
+            >
+                <!-- THE IPHONE -->
+                <div
+                    class="w-56 bg-gray-100 pb-1.5 border-8 border-white rounded-3xl shadow-2xl overflow-hidden relative z-10 sm:transform sm:scale-110 md:scale-125"
+                >
+                    <!-- the first div section -->
+                    <div class="bg-gradient-to-r from-light-violet to-light-magenta pt-6 pb-3">
+                        <div class="max-w-[12rem] mx-auto h-6 flex justify-between items-center">
+                            <!-- the back icon -->
+                            <div class="flex items-center">
+                                <div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-3 w-3 text-5xl text-gray-100 bg-ywllow-200"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M15 19l-7-7 7-7"
+                                        />
+                                    </svg>
+                                </div>
+
+                                <!-- the person contact -->
+                                <div class="flex items-center gap-2">
+                                    <!-- the person image -->
+                                    <div
+                                        class="w-6 h-6 rounded-full overflow-hidden border border-gray-100"
+                                    >
+                                        <img
+                                            src="./public/img/test1.jpeg"
+                                            alt=""
+                                            class="object-cover"
+                                        />
+                                    </div>
+                                    <!-- the person name and describtion -->
+                                    <div class="flex flex-col">
+                                        <h1 class="text-[11px] text-white font-bold capitalize">
+                                            micheal smith
+                                        </h1>
+                                        <p class="text-[6px] text-gray-100">online</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- the option icon -->
+                            <div class="">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-3 w-3 text-white"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="absolute -top-8 left-1/2 w-1/2 transform -translate-x-1/2 h-12 bg-white border-0 rounded-b-xl"
+                    ></div>
+
+                    <!-- second div section -->
+                    <div class="pt-4">
+                        <div class="max-w-[12.4rem] mx-auto">
+                            <!-- 1st receiver chat -->
+                            <div class="w-2/3 text-[7px] text-purple-700 mb-1.5">
+                                <p
+                                    class="py-1.5 px-1.5 bg-gray-300 inline-block rounded-b-lg rounded-tr-lg"
+                                >
+                                    That sounds great, i will happy love to discuss more about her.
+                                </p>
+                            </div>
+                            <!-- 2nd receiver chat -->
+                            <div class="w-2/3 text-[7px] text-purple-700 mb-3">
+                                <p
+                                    class="py-1.5 px-1.5 bg-gray-300 inline-block rounded-b-lg rounded-tr-lg"
+                                >
+                                    Could you send over some pictures please?, i would love to see
+                                    her.
+                                </p>
+                            </div>
+
+                            <!-- the sender chat with the dog pictures -->
+                            <div
+                                class="w-2/3 text-[7px] text-purple-700 rounded-md mb-1.5 flex justify-between float-right"
+                            >
+                                <img
+                                    src="./public/img/dog-image-1.jpg"
+                                    alt=""
+                                    class="w-9 h-9 object-cover rounded-lg"
+                                />
+                                <img
+                                    src="./public/img/dog-image-2.jpg"
+                                    alt=""
+                                    class="w-9 h-9 object-cover rounded-lg"
+                                />
+                                <img
+                                    src="./public/img/dog-image-3.jpg"
+                                    alt=""
+                                    class="w-9 h-9 object-cover rounded-lg"
+                                />
+                            </div>
+                            <!-- the sender chats -->
+                            <div class="w-2/3 text-[7px] text-gray-700 float-right mb-1.5">
+                                <p
+                                    class="py-1.5 px-1.5 bg-white inline-block float-right rounded-t-lg rounded-bl-lg"
+                                >
+                                    Here are a few picture, she is a happy girl, you will love her.
+                                </p>
+                            </div>
+                            <!-- the sender chats -->
+                            <div class="w-2/3 text-[7px] text-gray-700 float-right mb-3">
+                                <p
+                                    class="py-1.5 px-1.5 bg-white text-right inline-block float-right rounded-t-lg rounded-bl-lg"
+                                >
+                                    Can you make it?
+                                </p>
+                            </div>
+
+                            <!-- the receiver chats -->
+                            <div class="w-2/3 text-[7px] text-purple-700 mb-1.5">
+                                <p
+                                    class="py-1.5 px-1.5 bg-gray-300 inline-block rounded-b-lg rounded-tr-lg"
+                                >
+                                    She looks so happy, The time we disscussed worked. How long
+                                    should i take her out for?
+                                </p>
+                            </div>
+
+                            <!-- the option 1 -->
+                            <div
+                                class="w-3/4 mb-1.5 py-1.5 px-3 bg-gradient-to-r from-light-magenta to-light-violet flex justify-between items-center rounded-b-lg rounded-tr-lg"
+                            >
+                                <div class="flex items-center gap-2">
+                                    <div class="w-3 h-3 border border-gray-200 rounded-full"></div>
+                                    <!-- the miinite walk  -->
+                                    <h1 class="text-[7px] text-gray-300">30 minutes walk</h1>
+                                </div>
+                                <!-- the price for walking -->
+                                <h1 class="text-white text-[12px] font-bold">$29</h1>
+                            </div>
+                            <!-- the option 2 -->
+                            <div
+                                class="w-3/4 mb-1.5 py-1.5 px-3 bg-gradient-to-r from-light-magenta to-light-violet flex justify-between items-center rounded-b-lg rounded-tr-lg"
+                            >
+                                <div class="flex items-center gap-2">
+                                    <div class="w-3 h-3 border border-gray-200 rounded-full"></div>
+                                    <!-- the miinite walk  -->
+                                    <h1 class="text-[7px] text-gray-300">1 hour walk</h1>
+                                </div>
+                                <!-- the price for walking -->
+                                <h1 class="text-white text-[12px] font-bold">$48</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- the input section -->
+                    <div class="max-w-[12.4rem] mx-auto">
+                        <div
+                            class="w-full bg-white py-1 px-1 flex justify-between items-center rounded-full text-[7px]"
+                        >
+                            <p class="ml-3 text-gray-300">Type a message..</p>
+                            <div
+                                class="w-6 h-6 rounded-full bg-gray-700 flex justify-center items-center"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-32 w-32 text-gray-100 transform -rotate-180 scale-50"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M15 19l-7-7 7-7"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- the purple background for the first section -->
+                <div
+                    class="w-full md:w-3/4 h-full bg-gradient-to-tr from-light-violet to-light-magenta rounded-b-full absolute z-0 -top-24 left-0 transform -translate-x-1/2 md:-translate-x-1/4"
+                ></div>
+            </div>
+
+            <!-- THE SECOND SECTION THAT CONTAINS THE SIMPLE BOOKING TEXT AND THE PURPLE OPACITY BACKGROUND -->
+            <div
+                class="w-full bg-transparent py-8 md:pr-4 lg:pr-0 flex justify-center md:justify-start items-center relative overflow-hidden"
+            >
+                <!-- THE SIMPLE BOOKING TEXT -->
+                <div class="max-w-[18rem] sm:max-w-[31rem] py-4 space-y-4 z-10 text-center">
+                    <h1
+                        class="text-3xl md:text-4xl text-center md:text-left text-gray-700 font-bold capitalize"
+                    >
+                        simple booking
+                    </h1>
+                    <p
+                        class="text-center md:text-left text-[15px] sm:text-[18px] leading-relaxed text-gray-400"
+                    >
+                        Stay in touch with your dog walkers through the chat interface. This makes
+                        it easy to discuss arrangement and also make bookings. Once the walk has
+                        been completed, you can rate your walker and book again all through the
+                        chat.
+                    </p>
+                </div>
+
+                <!-- the purple opacity for the second background -->
+                <div
+                    class="w-full md:w-3/4 h-full bg-gradient-to-r from-light-violet/5 to-light-magenta/5 rounded-t-full z-0 absolute top-24 right-0 transform translate-x-1/2 md:translate-x-1/3"
+                ></div>
+            </div>
+        </section>
+
+        <!-- <div class=" max-w-xl my-auto mx-auto">
+  
+      <div class="z-0 relative ">
+  
+        <div class="w-64 h-64 rounded-full absolute top-20 -left-10 bg-pink-500 mix-blend-multiply transform scale-125 animate-blob filter blur-2xl"></div>
+        <div class="w-64 h-64 rounded-full absolute top-20 right-40 bg-green-500 mix-blend-multiply transform scale-125 animate-blob filter blur-2xl animate-delay-400"></div>
+        <div class="w-64 h-64 rounded-full absolute top-40 left-20 bg-blue-500 mix-blend-multiply transform scale-125 animate-blob filter blur-2xl animate-delay-200"></div>
+      </div>
+    
+      <div class="max-w-xl my-auto mx-auto py-4 px-6 space-y-4 relative z-10">
+  
+        <div class="border-white py-4 px-6 rounded-lg space-y-4 shadow-lg">
+          <div class="bg-blue-500 w-72 h-4 rounded-lg"></div>
+          <div class="bg-blue-300 w-96 h-4 rounded-lg"></div>
+        </div>
+  
+        <div class="border-white py-4 px-6 rounded-lg space-y-4 shadow-lg">
+          <div class="bg-green-500 w-72 h-4 rounded-lg"></div>
+          <div class="bg-green-300 w-96 h-4 rounded-lg"></div>
+        </div>
+  
+        <div class="border-white py-4 px-6 rounded-lg space-y-4 shadow-lg">
+          <div class="bg-pink-500 w-72 h-4 rounded-lg"></div>
+          <div class="bg-pink-300 w-96 h-4 rounded-lg"></div>
+        </div>
+    
+      </div>
+  
+    </div> -->
+    </body>
+</html>
