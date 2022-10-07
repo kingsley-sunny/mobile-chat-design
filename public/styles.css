@@ -827,6 +827,9 @@ video {
 .border {
 	border-width: 1px;
 }
+.border-0 {
+	border-width: 0px;
+}
 .border-white {
 	--tw-border-opacity: 1;
 	border-color: rgba(255, 255, 255, var(--tw-border-opacity));
@@ -912,9 +915,6 @@ video {
 }
 .to-light-magenta\/5 {
 	--tw-gradient-to: hsla(293, 100%, 63%, 0.05);
-}
-.to-light-magenta\/50 {
-	--tw-gradient-to: hsla(293, 100%, 63%, 0.5);
 }
 .object-cover {
 	-o-object-fit: cover;
